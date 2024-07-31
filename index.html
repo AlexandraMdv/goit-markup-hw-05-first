@@ -512,11 +512,11 @@
       </div>
     </footer>
 
-    <div class="modal-container">
+    <div class="modal-container is-open">
       <div class="modal-wrapper">
         <button type="button" class="modal-close-button">
           <svg class="modal-icon" width="16" height="16">
-            <use href="./images/icons.svg#icon-close"></use>
+            <use href="./images/icons.svg#icon-email"></use>
           </svg>
         </button>
         <p class="form-modal-text">
@@ -524,34 +524,38 @@
         </p>
         <form class="form-modal">
           <div class="form-modal-inputs">
-            <label class="form-modal-label">
-              Name
-              <div>
-                <input
-                  type="text"
-                  placeholder="Icon"
-                  class="form-modal-input"
-                />
-              </div>
-            </label>
+            <label class="form-modal-label" for="name-text"> Name</label>
+            <div>
+              <input
+                type="text"
+                id="name-text"
+                placeholder="Icon"
+                class="form-modal-input"
+              />
+            </div>
           </div>
           <div class="form-modal-inputs">
-            <label class="form-modal-label">
-              Phone
-              <input type="text" placeholder="icon" class="form-modal-input" />
-            </label>
+            <label class="form-modal-label" for="phone-text"> Phone</label>
+            <input
+              type="text"
+              id="phone-text"
+              placeholder="icon"
+              class="form-modal-input"
+            />
           </div>
           <div class="form-modal-inputs">
-            <label class="form-modal-label">
-              Email
-              <input type="text" placeholder="icon" class="form-modal-input" />
-            </label>
+            <label class="form-modal-label" for="email-text">Email</label>
+            <input
+              type="text"
+              id="email-text"
+              placeholder="icon"
+              class="form-modal-input"
+            />
           </div>
           <div class="form-modal-inputs">
             <label class="form-modal-label">
               Comment
               <textarea
-                type="text"
                 placeholder="Text input"
                 class="form-modal-textarea"
                 rows="8"

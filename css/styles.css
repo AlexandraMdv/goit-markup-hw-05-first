@@ -539,6 +539,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   margin-bottom: 16px;
+  color: #fff;
 }
 
 .form-modal-input {
@@ -610,6 +611,10 @@ input::placeholder {
   background-color: #fcfcfc;
 }
 
+.modal-close-button {
+  background-color: pink;
+}
+
 .form-modal {
   max-width: 360px;
   display: flex;
@@ -618,6 +623,10 @@ input::placeholder {
   align-items: baseline;
   gap: 8px;
   margin-left: 24px;
+}
+
+.form-modal-inputs {
+  width: 100%;
 }
 
 .form-modal-text {
