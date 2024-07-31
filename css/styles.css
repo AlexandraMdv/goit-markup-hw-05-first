@@ -611,6 +611,8 @@ body {
   margin-left: 16px;
 }
 
+/* ----------- Modal container ----------- */
+
 .modal-container.is-open {
   visibility: visible;
   opacity: 1;
