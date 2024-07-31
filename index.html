@@ -526,16 +526,16 @@
           <div class="form-modal-inputs">
             <label class="form-modal-label" for="user-name"> Name</label>
             <div class="form-modal-inputs-box">
-              <input type="text" id="user-name" class="form-modal-input" />
+              <input type="text" name="user-name" class="form-modal-input" />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
           <div class="form-modal-inputs">
-            <label class="form-modal-label" for="user-phone"> Phone</label>
+            <label class="form-modal-label" for="user-name"> Phone</label>
             <div class="form-modal-inputs-box">
-              <input type="tel" id="user-phone" class="form-modal-input" />
+              <input type="text" id="user-name" class="form-modal-input" />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-tel"></use>
               </svg>
@@ -544,33 +544,39 @@
           <div class="form-modal-inputs">
             <label class="form-modal-label" for="user-email">Email</label>
             <div class="form-modal-inputs-box">
-              <input type="email" id="user-email" class="form-modal-input" />
+              <input type="text" id="user-email" class="form-modal-input" />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
           <div class="form-modal-inputs">
-            <label class="form-modal-label">
-              Comment
-              <textarea
-                placeholder="Text input"
-                class="form-modal-textarea"
-                rows="8"
-              ></textarea>
-            </label>
+            <label class="form-modal-label" for="user-comment"> Comment</label>
+            <textarea
+              placeholder="Text input"
+              class="form-modal-textarea"
+              id="user-comment"
+              name="'user-comment"
+              rows="8"
+            ></textarea>
           </div>
 
           <div class="form-field">
             <input
               type="checkbox"
-              class="form-checkbox"
-              name="agree"
-              id="agree"
+              class="form-checkbox visually-hidden"
+              value="true"
+              name="user-privacy"
+              id="user-privacy"
             />
-            <label class="form-checkbox-label" for="agree">
+            <label class="form-checkbox-label" for="user-privacy">
+              <span class="form-checkbox-text">
+                <svg class="modal-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Checkbox"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <a href="#">Privacy Policy</a>
+              <a href="#" class="form-checkbox-link">Privacy Policy</a>
             </label>
           </div>
 
