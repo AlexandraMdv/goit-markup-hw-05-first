@@ -840,6 +840,7 @@ body {
   /* background-color: #404bbf; */
 }
 
+/* + is for neighbour elements */
 .form-checkbox:checked + .form-checkbox-label .form-checkbox-text {
   background-color: #404bbf;
   border: none;
